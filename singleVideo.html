@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Ocean World</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="css/owl.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<!--
+
+TemplateMo 579 Cyborg Gaming
+
+https://templatemo.com/tm-579-cyborg-gaming
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="/" class="logo">
+                        Ocean World Gallery
+                        <p>Welcome, Admin</p>
+                    </a>
+                    <ul class="nav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="oceanWorld.html">Videos</a></li>
+                        <li><a href="AdminDashboard.html">Admin Dashboard</a></li>
+                        
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+          <!-- ***** Most Popular Start ***** -->
+          <div class="most-popular">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-12 col-sm-12">
+                    <div class="heading-section">
+                      <h4><em>vecteezy_cartoon-background-camping-mountain-night_3439680</em></h4>
+                    </div>
+                    
+                    <div class="item">
+                      <video src="uploads/vecteezy_cartoon-background-camping-mountain-night_3439680.mp4" width="1000px" controls></video>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="item">
+                            <form id="comment" method="post" action="#">
+                                <table>
+                                    <tr>
+                                        <td><input type="email" class="form-control" value="Admin" placeholder="Enter Email" id='email' name="email" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control" placeholder="Add Comment" id='comment' name="comment" />
+                                        <input type="hidden" class="form-control" value="<%= dataid %>" name="vid"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="rate" class="form-control">
+                                            <option value="1">1 Star</option>
+                                            <option value="2">2 Star</option>
+                                            <option value="3">3 Star</option>
+                                            <option value="4">4 Star</option>
+                                            <option value="5">5 Star</option>
+                                        </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="submit" style="background-color: lightseagreen;" class="form-control main-border-button" name="addComment" value="Add Comment" /></td>
+                                    </tr>
+                                   
+                                </table>
+                              </form>
+                        </div>
+                      </div> 
+                </div>
+                <div class="row">
+                      <div class="col-lg-12 col-sm-6">
+                        <div class="item">
+                            <h4 style="color: aqua;">Name : Marry</h4>
+                            <p style="color: bisque;">Comment : Effective Cartton</p>
+                            <p style="color: blanchedalmond;">Rate : 4 Star</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-sm-6">
+                        <div class="item">
+                            <h4 style="color: aqua;">Name : Jason</h4>
+                            <p style="color: bisque;">Comment : Good one</p>
+                            <p style="color: blanchedalmond;">Rate : 3 Star</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-sm-6">
+                        <div class="item">
+                            <h4 style="color: aqua;">Name : Maria</h4>
+                            <p style="color: bisque;">Comment : Happy to watch this</p>
+                            <p style="color: blanchedalmond;">Rate : 4 Star</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Most Popular End ***** -->
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Video Gallary Application</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="jquery/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="js/isotope.min.js"></script>
+  <script src="js/owl-carousel.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="js/custom.js"></script>
+
+
+  </body>
+
+</html>
